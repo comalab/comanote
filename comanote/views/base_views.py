@@ -4,6 +4,7 @@ from ..models import Question
 from django.db.models import Q, Count
 
 def index(request):
+    3/0
     """
     질문 목록 출력
     """
