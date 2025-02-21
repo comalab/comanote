@@ -2,9 +2,11 @@ from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator
 from ..models import Question
 from django.db.models import Q, Count
+import logging
+logger = logging.getLogger('comanote')
 
 def index(request):
-    3/0
+    logger.info("INFO 레벨로 출력")
     """
     질문 목록 출력
     """

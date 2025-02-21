@@ -172,7 +172,12 @@ LOGGING= {
                         'level': 'INFO'},
              'django.server': {'handlers': ['django.server'],
                                'level': 'INFO',
-                               'propagate': False}},
+                               'propagate': False},
+             'comanote' : {
+                 'handlers' : ['console', 'file'],
+                 'level' : 'INFO',
+             },
+             },
  'version': 1,
 
 }
